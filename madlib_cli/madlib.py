@@ -67,3 +67,11 @@ def merge(template, user_words):
     for word in user_words:
         template = template.replace('{}', word, 1)
     return template
+
+
+def write_madlib(where, merged_madlib):
+    filename = os.path.join(dirname, '../madlibs')
+
+    file = open(f'{filename}/{where}', 'w')
+    file.write(merged_madlib)
+    file.close()
