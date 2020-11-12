@@ -1,6 +1,6 @@
 # madlibs
 
-can take a fileeeee template as input for a madlib,
+can take a file template as input for a madlib,
 then prompts the user to write their madlib inputs
 then it will print AND write the output to a file
 
